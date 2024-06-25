@@ -1,7 +1,7 @@
 'use client';
 import { CSVBoxButton } from '@csvbox/react'
 import { useState } from 'react';
-export default function csvimport() {
+export default function CsvImport() {
   const [apiResponse, setApiResponse] = useState<string | null>(null);
   const [responseClass, setResponseClass] = useState<string>('text-green-600');
   const csvboxKey = process.env.NEXT_PUBLIC_CSV_BOX_LICENSE_KEY as string;
