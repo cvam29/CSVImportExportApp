@@ -12,7 +12,7 @@ export default function CsvImport() {
           <CSVBoxButton
             licenseKey={csvboxKey}
             user={{
-              user_id: process.env.CSV_BOX_USER_ID
+              user_id: process.env.NEXT_PUBLIC_CSV_BOX_USER_ID
             }}
             options={{
               max_rows: 5000,
